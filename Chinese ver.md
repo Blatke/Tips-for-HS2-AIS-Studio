@@ -100,4 +100,17 @@ Discord原作者消息：[https://discord.com/channels/446784086539763712/715932
 
 _ _None, Backspace, Tab, Clear, Return, Pause, Escape, Space, Exclaim, DoubleQuote, Hash, Dollar, Ampersand, Quote, LeftParen, RightParen, Asterisk, Plus, Comma, Minus, Period, Slash, Colon, Semicolon, Less, Equals, Greater, Question, At, LeftBracket, Backslash, RightBracket, Caret, Underscore, BackQuote, Delete, KeypadPeriod, KeypadDivide, KeypadMultiply, KeypadMinus, KeypadPlus, KeypadEnter, KeypadEquals, UpArrow, DownArrow, RightArrow, LeftArrow, Insert, Home, End, PageUp, PageDown, Numlock, CapsLock, ScrollLock, RightShift, LeftShift, RightControl, LeftControl, RightAlt, LeftAlt, RightApple, RightCommand, LeftCommand, LeftApple, LeftWindows, RightWindows, AltGr, Help, Print, SysReq, Break, Menu, Mouse0 to Mouse6, A through Z, Alpha0 through Alpha9, Keypad0 through Keypad9, F1 through F15, JoystickButton0 to JoystickButton19, Joystick1Button0 to Joystick8Button19_ _
 
+### 将Grey.MeshExporter导出的模型文件，导入Blender
+可使用**hs2_blender_export**等Blender辅助工具，将Grey.MeshExporter生成的FBX等文件（及贴图）一次性导入Blender中。参见：[https://github.com/veryfancypants/hs2_blender_export](https://github.com/veryfancypants/hs2_blender_export)
+
+注意：
+1. 需要在工作室导出该角色后，将角色摆回T形姿势，呼出Runtime Unity Editor插件界面（按F1设置其快捷键），在“Scene Unity Editor”面板的列表中找到“公共空间”（Common Space），选中它，点击“导出”（dump）。随后，弹出了一个用记事本打开的.txt文档，它记录了该人物角色的骨骼等数据。打开你先前把角色导入到Export文件夹中那个子文件夹（例如\Export\20221213104852_Kazumi\），再把这个文档转存到该文件夹里。
+2. 使用hs2_blender_export时，是打开其prefab_materials_meshexporter.blend文件，再在这个文件中进行各项操作，而不是在自己新建的空白blend文件中操作，也不是将其文件夹里的py文件作为add-on添加到Blender插件面板中。
+3. 进入prefab_materials_meshexporter.blend，按N键呼出右边插件栏，点击Rig。
+
+![image](https://github.com/user-attachments/assets/1414ba9e-61ed-4612-b137-74b1b3b8c2f7)
+
+4. 在Preset一项里点击<New>，新建一个preset。将我们之前提到的那个.txt文档的所在文件夹的**完整路径**（例如C:\HS2\Export\20221213104852_Kazumi\）复制粘贴到Char directory文本框里。最后点击import model，完成模型导入。
+
+![image](https://github.com/user-attachments/assets/3b783218-7e71-4ede-aafa-2b1573b1603d)
 
