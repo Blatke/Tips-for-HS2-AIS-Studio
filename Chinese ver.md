@@ -1,4 +1,4 @@
-# 关于HS2和AI少女的小贴士 
+# 关于HS2和AI少女工作室的小贴士 
 
 **Bl@ke/文**
 
@@ -59,3 +59,45 @@ DHH和Graphics两种模式均支持其功能，不过Graphics支持度更好。
 在Graphics模式下，勾选Reflection Probes，将Reflection Probe的重要性importance拉满，适当调整强度intensity，就是上述效果。还可以在设置Settings里，勾选“实时反射探头”，即可使反射内容根据场景变化而调整。
 
 同时注意，无论哪个模式，Reflection Probe反射的内容都跟它的所在位置有关。
+## 将角色人物导出为FBX文件
+**Grey.MeshExporter**是一款为Illusion游戏设计的角色导出插件，能够将恋活、HS、HS2、AI少女、PH工作室中的角色（及其衣服和配饰）导出为FBX模型文件和相关贴图，便于用户进一步导入3D建模软件中编辑。
+
+Discord原作者消息：[https://discord.com/channels/446784086539763712/715932300382044170/858707187203309629](https://discord.com/channels/446784086539763712/715932300382044170/858707187203309629)
+
+百度网盘下载地址
+链接：[https://pan.baidu.com/s/18YqOwisEjaWXN-WxiMUaEw?pwd=2024](https://pan.baidu.com/s/18YqOwisEjaWXN-WxiMUaEw?pwd=2024)
+提取码：2024
+
+下载后解压，按自己的游戏找到相应名称的文件夹，将里面的BepInEx文件夹拖入你的游戏根目录，即可完成安装。
+
+安装后，启动游戏的工作室Studio模式。添加任一人物角色，并确保在工作面板Workspace中选择该角色。按小键盘减号键 “-” 呼出Grey.MeshExporter操作面板，按Export按钮导出角色，即可将角色模型连带有关贴图一并导出至游戏根目录中的Export文件夹。
+
+如有其它问题，可阅读该插件的文件夹里附带的READ ME - SERIOUSLY!.txt帮助文档。
+
+### Grey.MeshExporter快捷键设置
+若按减号键无反应，则需尝试通过修改Grey.MeshExporter的ini/cfg文件来重新设置快捷键。
+
+1. 确保在安装Grey.MeshExporter后，至少启动过一次StudioNeo，这样，相应文件夹下将随着StudioNeo的启动而生成设置文件。
+
+2. 在StudioNeo关闭的情况下，找到这个设置文件，此处有两种可能：
+
+该文件位于：你的游戏根目录/BepInEx/Config/ 目录中；文件名一般为：Grey.MeshExporter.游戏名称.cfg。例如我使用的是AI少女，文件名为Grey.MeshExporter.AI.cfg。如下图：
+
+![image](https://github.com/user-attachments/assets/e3b2d3ad-dd49-43df-a303-3a6ca2b59d9d)
+
+游戏根目录/BepInEx/Config/Grey.MeshExporter.游戏名称.cfg
+或者，该文件位于：你的游戏根目录/UserData/ 目录中；文件名一般为：ModPrefs.ini。
+
+3. 用记事本或代码编辑软件打开此文件，找到以EportKey=或ExportShortcut=字样开头的代码行，使用快捷键关键词（见文末注释）将等号后面的代码改为你想要重新设置的快捷键名称。例如我这里改为：LeftShift + Minus ，也就是通过按左侧Shift+减号键（注意：按键顺序也可能是颠倒的，即先按减号键，再按左侧Shift键。总之都试试）来呼出插件面板。如下图：
+
+![image](https://github.com/user-attachments/assets/6f4a8967-28bb-4bf5-8dd5-ee1dea90575c)
+
+4. 保存文件。启动StudioNeo。按下你设置的快捷键，呼出插件面板。
+
+![image](https://github.com/user-attachments/assets/01399f27-88b9-4ad9-b670-dcf9fd437cb1)
+
+根据插件附带的READ ME - SERIOUSLY!.txt文件，可用于快捷键的关键字如下：
+
+_ _None, Backspace, Tab, Clear, Return, Pause, Escape, Space, Exclaim, DoubleQuote, Hash, Dollar, Ampersand, Quote, LeftParen, RightParen, Asterisk, Plus, Comma, Minus, Period, Slash, Colon, Semicolon, Less, Equals, Greater, Question, At, LeftBracket, Backslash, RightBracket, Caret, Underscore, BackQuote, Delete, KeypadPeriod, KeypadDivide, KeypadMultiply, KeypadMinus, KeypadPlus, KeypadEnter, KeypadEquals, UpArrow, DownArrow, RightArrow, LeftArrow, Insert, Home, End, PageUp, PageDown, Numlock, CapsLock, ScrollLock, RightShift, LeftShift, RightControl, LeftControl, RightAlt, LeftAlt, RightApple, RightCommand, LeftCommand, LeftApple, LeftWindows, RightWindows, AltGr, Help, Print, SysReq, Break, Menu, Mouse0 to Mouse6, A through Z, Alpha0 through Alpha9, Keypad0 through Keypad9, F1 through F15, JoystickButton0 to JoystickButton19, Joystick1Button0 to Joystick8Button19_ _
+
+
