@@ -1,7 +1,7 @@
 #Tips on HS2 and AI Girl Studio
 
 
-**Bl@ke/Wen**
+**Written by Bl@ke**
 
 
 （[http://www.blatke.cc](http://www.blatke.cc/)）
@@ -152,7 +152,7 @@ Alternatively, the file can be located in: your game root directory/UserData/dir
 ![image](https://github.com/user-attachments/assets/01399f27-88b9-4ad9-b670-dcf9fd437cb1)
 
 
-According to the READ ME - Seriously! Included with the pluginThe keywords that can be used for shortcut keys in a txt file are as follows: 
+According to the _READ ME - Seriously!_ included with the plugin, the keywords that can be used for shortcut keys in a txt file are as follows: 
 
 
 _ _None, Backspace, Tab, Clear, Return, Pause, Escape, Space, Exclaim, DoubleQuote, Hash, Dollar, Ampersand, Quote, LeftParen, RightParen, Asterisk, Plus, Comma, Minus, Period, Slash, Colon, Semicolon, Less, Equals, Greater, Question, At, LeftBracket, Backslash, RightBracket, Caret, Underscore, BackQuote, Delete, KeypadPeriod, KeypadDivide, KeypadMultiply, KeypadMinus, KeypadPlus, KeypadEnter, KeypadEquals, UpArrow, DownArrow, RightArrow, LeftArrow, Insert, Home, End, PageUp, PageDown, Numlock, CapsLock, ScrollLock, RightShift, LeftShift, RightControl, LeftControl, RightAlt, LeftAlt, RightApple, RightCommand, LeftCommand, LeftApple, LeftWindows, RightWindows, AltGr, Help, Print, SysReq, Break, Menu, Mouse0 to Mouse6, A through Z, Alpha0 through Alpha9, Keypad0 through Keypad9, F1 through F15, JoystickButton0 to JoystickButton19, Joystick1Button0 to Joystick8Button19_ _
@@ -165,7 +165,7 @@ You can use Blender auxiliary tools such as * * hs2/blender-export * * to conver
 
 be careful: 
 
-1. After exporting the character in the studio, put it back in a T-shaped pose, call up the Runtime Unity Editor plugin interface (press F1 to set its shortcut key), find "Common Space" in the list of the "Scene Unity Editor" panel, select it, and click "dump". Subsequently, a. txt document opened with Notepad popped up, which recorded the skeletal and other data of the character. Open the subfolders where you previously imported the character into the Export folder (e.g. \ Export \ 20221213104852_Kazumi \), and then save this document to that folder. 
+1. After exporting the character in the studio, put it back in a T-shaped pose, call up the Runtime Unity Editor plugin interface (press F1 to set its shortcut key), find "Common Space" in the list of the "Scene Unity Editor" panel, select it, and click "dump". Subsequently, a. txt document opened with Notepad popped up, which recorded the skeletal and other data of the character. Open the subfolders where you previously imported the character into the Export folder (e.g. \Export\20221213104852_Kazumi\), and then save this document to that folder. 
 
 2. When using hs_2blenderexport, it is necessary to open its prefabmaterials_ceshexporter.blend file and perform various operations in this file, rather than operating in a newly created blank blend file or adding the py file in its folder as an add-on to the Blender plugin panel. 
 
@@ -175,7 +175,7 @@ be careful:
 ![image](https://github.com/user-attachments/assets/1414ba9e-61ed-4612-b137-74b1b3b8c2f7)
 
 
-4. Click<New>in the Preset section to create a new preset. Copy and paste the * * full path * * of the folder containing the. txt document we mentioned earlier (e.g. C: \ HS2 \ Export \ 20221213104852_Kazumi \) into the Char directory text box. Finally, click on import model to complete the model import. 
+4. Click<New>in the Preset section to create a new preset. Copy and paste the * * full path * * of the folder containing the. txt document we mentioned earlier (e.g. C:\HS2\Export\20221213104852_Kazumi\) into the Char directory text box. Finally, click on import model to complete the model import. 
 
 
 ![image](https://github.com/user-attachments/assets/3b783218-7e71-4ede-aafa-2b1573b1603d)
