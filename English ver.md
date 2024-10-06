@@ -25,7 +25,7 @@ HS2：[https://github.com/ManlyMarco/HS2-HF_Patch/blob/master/Plugin%20Readme.md
 
 AI：[https://github.com/ManlyMarco/AI-HF_Patch/blob/master/Plugin%20Readme.md](https://github.com/ManlyMarco/AI-HF_Patch/blob/master/Plugin%20Readme.md) 
 
-##Where can I find Mods?
+## Where can I find Mods?
 
 The mods for HS2 and AI are basically universal. 
 
