@@ -65,7 +65,7 @@ Adjusting the above two values appropriately, my favorite glossiness is 0.8 and 
 When the metal value increases, you may find that the human body becomes darker. This is because the surrounding environment is dark or there are no reflection probes, so the human body cannot reflect even if it wants to. 
 
 
-The solution is to add a Reflection Probe, which is a studio item that players who integrate packages may find directly in the studio item search. Not installed, can be downloaded here: [https://drive.google.com/file/d/1B7cn4FXdYTGE4W96rVcL5jmbHJ3JOjnq/view](https://drive.google.com/file/d/1B7cn4FXdYTGE4W96rVcL5jmbHJ3JOjnq/view) 
+The solution is to add a Reflection Probe, which is a studio item that players who have integrated packages may find directly in the studio item search. If not installed, can download it here: [https://drive.google.com/file/d/1B7cn4FXdYTGE4W96rVcL5jmbHJ3JOjnq/view](https://drive.google.com/file/d/1B7cn4FXdYTGE4W96rVcL5jmbHJ3JOjnq/view) 
 
 
 After adding, this item takes a panoramic screenshot with itself as the center, and attaches the screenshot to items with high gloss and metallic values in the scene, achieving a smooth reflection or even mirror reflection effect. 
