@@ -6,7 +6,7 @@
 
 （[http://www.blatke.cc](http://www.blatke.cc/)）
 
-NOTE: This is a Google translation of the Chinese version. There might be some slips in gramma.
+**NOTE: This is a Google translation of the Chinese version. There might be some slips in gramma.**
 
 
 Honey Select 2- hereinafter referred to as HS2; 
