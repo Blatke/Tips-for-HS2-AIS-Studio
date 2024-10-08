@@ -40,7 +40,7 @@ HS2和AI的mods基本是通用的。
 
 金属值拉高时，你可能会发现，人体变暗了。这是因为周边环境是暗的，或没有反射探针（reflection probe），所以人体想反射也反射不了。
 
-解决办法是添加一个Reflection Probe，这是工作室的物品，整合包的玩家可能直接在工作室物品搜索中找到。没有安装的，可在这里下载：[https://drive.google.com/file/d/1B7cn4FXdYTGE4W96rVcL5jmbHJ3JOjnq/view](https://drive.google.com/file/d/1B7cn4FXdYTGE4W96rVcL5jmbHJ3JOjnq/view) 
+解决办法是添加一个Reflection Probe，这是Nyaacho制作的工作室物品，整合包的玩家可能直接在工作室物品搜索中找到。没有安装的，可在这里下载：[https://drive.google.com/file/d/1B7cn4FXdYTGE4W96rVcL5jmbHJ3JOjnq/view](https://drive.google.com/file/d/1B7cn4FXdYTGE4W96rVcL5jmbHJ3JOjnq/view) 
 
 添加后，这个物品以自己为圆心做全景截图，并将截图贴到场景中光泽和金属数值较大的物品上，达成光滑反射甚至镜面反射的效果。
 
