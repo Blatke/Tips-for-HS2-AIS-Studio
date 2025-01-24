@@ -48,51 +48,37 @@ This list regularly compiles and updates mods from Discord above, but my persona
 
 It is also recommended to make good use of Google to search for the website, such as adding site: sidiload.betterrepack.com after the search keyword
 
-## How does the body reflect light
+## How to get the body reflect light
 
 Select the character, open the Material Editor, and search for "body" or "body". 
 
-
 Find the following under this material: 
 
+- Glossiness, controlling the effect of material reflection of light sources; 
 
--Glossiness, controlling the effect of material reflection of light sources; 
-
--Metallic texture controls the contrast between highlights and non highlights when the material reflects light sources. Non highlights reflect the surrounding environment. 
-
+- Metallic texture controls the contrast between highlights and non highlights when the material reflects light sources. Non highlights reflect the surrounding environment. 
 
 Adjusting the above two values appropriately, my favorite glossiness is 0.8 and metallic is 0.75. 
 
-
 When the metal value increases, you may find that the human body becomes darker. This is because the surrounding environment is dark or there are no reflection probes, so the human body cannot reflect even if it wants to. 
 
-
-The solution is to add a Reflection Probe, which is a studio item made by Nyaacho, that makes players who have integrated packages may find directly in the studio item search. If not installed, can download it here: [https://drive.google.com/file/d/1B7cn4FXdYTGE4W96rVcL5jmbHJ3JOjnq/view](https://drive.google.com/file/d/1B7cn4FXdYTGE4W96rVcL5jmbHJ3JOjnq/view) 
-
+The solution is to add a Reflection Probe, which is a studio item made by @Nyaacho, that makes players who have integrated packages may find directly in the studio item search. If not installed, can download it here: [https://drive.google.com/file/d/1B7cn4FXdYTGE4W96rVcL5jmbHJ3JOjnq/view](https://drive.google.com/file/d/1B7cn4FXdYTGE4W96rVcL5jmbHJ3JOjnq/view) 
 
 After adding, this item takes a panoramic screenshot with itself as the center, and attaches the screenshot to items with high gloss and metallic values in the scene, achieving a smooth reflection or even mirror reflection effect. 
 
-
 Both DHH and Graphics modes support its functionality, but Graphics has better support. 
-
 
 ![K2SF@FMNODG%~{PM5(XTJH9](https://github.com/user-attachments/assets/ccda59fd-eb64-4cab-b86a-a30a8fb22462)
 
-
-This is the addition of a skybox as the background in the studio, a plain spherical sphere, and finally a Reflection Probe. 
-
+This is the addition of a skybox as the background in the studio, a simple sphere item, and finally a Reflection Probe. 
 
 ![_ZX}YQSPQ@DIR5KDJJCOQF](https://github.com/user-attachments/assets/6e7ebace-4715-4a45-89df-8f89f9e71d1e)
 
-
 In DHH mode, fully fill the metal and luster of the sphere, and fully fill the "texture metal reflection" in the DHH interface to achieve the effect shown in the picture. Note: The content reflected by the Reflection Probe in DHH is only the environment at the moment it is added to the scene and does not change in real-time. You can delete and then add again to refresh the reflected content. 
-
 
 ![R0QF@{LYHHOHTD @7TGXLG](https://github.com/user-attachments/assets/446035a2-d443-4012-b305-b9d2b3c35d61)
 
-
 In Graphics mode, select Reflection Probes, fully increase the importance of Reflection Probes, and adjust the intensity appropriately to achieve the above effect. You can also check "Real time Reflection Probe" in the Settings to adjust the reflection content according to the scene changes. 
-
 
 Please note that regardless of the mode, the content reflected by the Reflection Probe is related to its location. 
 
@@ -100,16 +86,11 @@ Please note that regardless of the mode, the content reflected by the Reflection
 
 **Grey.MeshExporter** is a character export plugin designed for Illusion games, which can export characters (including their clothes and accessories) from Lovelife, HS, HS2, AI Girls, and PH studios as FBX model files and related textures, making it easier for users to import and edit them into 3D modeling software. 
 
-
 Discord original author message:[https://discord.com/channels/446784086539763712/715932300382044170/858707187203309629](https://discord.com/channels/446784086539763712/715932300382044170/858707187203309629)
 
-
-Baidu Cloud Download Address
-
-Link:[https://pan.baidu.com/s/18YqOwisEjaWXN-WxiMUaEw?pwd=2024](https://pan.baidu.com/s/18YqOwisEjaWXN-WxiMUaEw?pwd=2024)
+Baidu Cloud Download Link:[https://pan.baidu.com/s/18YqOwisEjaWXN-WxiMUaEw?pwd=2024](https://pan.baidu.com/s/18YqOwisEjaWXN-WxiMUaEw?pwd=2024)
 
 Extraction code: 2024
-
 
 After downloading, unzip and find the folder with the corresponding name according to your game. Drag the BepInEx folder into your game root directory to complete the installation. 
 
