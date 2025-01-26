@@ -110,7 +110,7 @@ _ _None, Backspace, Tab, Clear, Return, Pause, Escape, Space, Exclaim, DoubleQuo
 
 ![image](https://github.com/user-attachments/assets/1414ba9e-61ed-4612-b137-74b1b3b8c2f7)
 
-4. 在Preset一项里点击<New>，新建一个preset。将我们之前提到的那个.txt文档的所在文件夹的**完整路径**（例如C:\HS2\Export\20221213104852_Kazumi\）复制粘贴到Char directory文本框里。最后点击import model，完成模型导入。
+4. 在Preset一项里点击\<New\>，新建一个preset。将我们之前提到的那个.txt文档的所在文件夹的**完整路径**（例如C:\HS2\Export\20221213104852_Kazumi\）复制粘贴到Char directory文本框里。最后点击import model，完成模型导入。
 
 ![image](https://github.com/user-attachments/assets/3b783218-7e71-4ede-aafa-2b1573b1603d)
 
