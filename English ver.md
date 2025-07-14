@@ -88,9 +88,7 @@ Please note that regardless of the mode, the content reflected by the Reflection
 
 Discord original author message:[https://discord.com/channels/446784086539763712/715932300382044170/858707187203309629](https://discord.com/channels/446784086539763712/715932300382044170/858707187203309629)
 
-Baidu Cloud Download Link:[https://pan.baidu.com/s/18YqOwisEjaWXN-WxiMUaEw?pwd=2024](https://pan.baidu.com/s/18YqOwisEjaWXN-WxiMUaEw?pwd=2024)
-
-Extraction code: 2024
+MEGA Download Link: https://mega.nz/folder/ozZX3bCT#ZbdU-b1stv2eS-rf6aPNPg
 
 After downloading, unzip and find the folder with the corresponding name according to your game. Drag the BepInEx folder into your game root directory to complete the installation. 
 
