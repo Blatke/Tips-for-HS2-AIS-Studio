@@ -84,7 +84,7 @@ Please note that regardless of the mode, the content reflected by the Reflection
 
 ## Export character as FBX file
 
-**Grey.MeshExporter** is a character export plugin designed for Illusion games, which can export characters (including their clothes and accessories) from Lovelife, HS, HS2, AI Girls, and PH studios as FBX model files and related textures, making it easier for users to import and edit them into 3D modeling software. 
+**Grey.MeshExporter** is a character export plugin designed for Illusion games, which can export characters (including their clothes and accessories) from KK, HS, HS2, AI-Shoujo, and PH studios as FBX model files and related textures, making it easier for users to import and edit them into 3D modeling software. 
 
 Discord original author message:[https://discord.com/channels/446784086539763712/715932300382044170/858707187203309629](https://discord.com/channels/446784086539763712/715932300382044170/858707187203309629)
 
