@@ -18,12 +18,18 @@ AI：[https://github.com/ManlyMarco/AI-HF_Patch/blob/master/Plugin%20Readme.md](
 HS2和AI的mods基本是通用的。
 
 ### Discord
-[https://discord.gg/illusionsoft](https://discord.gg/illusionsoft)
+- [Illusionsoft](https://discord.gg/illusionsoft)
 
-这是民间I社游戏的discord服务器，可以在hs2-mod-sharing和old-hs2-mod-sharing这两个频道里寻找mods。
+这是民间I社游戏的discord服务器，可以在ai-hs2-mod-sharing频道里寻找mods。
+
+非常不幸，2025年7月，Illusionsoft被黑，所有频道连同历史资料被全部清除。目前人们还在重建服务器的内容。
+
+- [Illusion Games](https://discord.gg/w55qxkt2)
+
+主要由mod作者和作图者新建起来的服务器。
 
 ### Betterrepack Mods Server
-[https://sideload.betterrepack.com/download/AISHS2/](https://sideload.betterrepack.com/download/AISHS2/) 
+- [betterrepack.com](https://sideload.betterrepack.com/download/AISHS2/) 
 
 该列表定期从上面的discord上整理更新mods，但我个人建议还是在discord上找，因为作者发布mods的同时，也会把一些使用说明写在discord帖子上，而这个列表只有mod文件，不附带说明。
  
