@@ -32,19 +32,21 @@ The mods for HS2 and AI are basically universal.
 
 ### Discord
 
-[https://discord.gg/illusionsoft](https://discord.gg/illusionsoft)
+- [Illusionsoft](https://discord.gg/illusionsoft)
 
+Perhaps it's the oldest Discord server for illusion games, where you can search for mods on the #ai-hs2-mod-sharing channels. 
 
-This is the Discord server for the folk I Society game, where you can search for mods on the hs2 mod sharing and old-hs2-mod sharing channels. 
+Unfortunately in July 2025, Illusionsoft was nuked, and all the channels with the historial posts were wiped. People are still rebuilding the content of the server.
 
+- [Illusion Games](https://discord.gg/w55qxkt2)
+
+A newly built Discord server for illusion games, by mainly modders and renderers.
 
 ### Betterrepack Mods Server
 
-[https://sideload.betterrepack.com/download/AISHS2/](https://sideload.betterrepack.com/download/AISHS2/) 
-
+- [betterrepack.com](https://sideload.betterrepack.com/download/AISHS2/) 
 
 This list regularly compiles and updates mods from Discord above, but my personal suggestion is to look for them on Discord because when the author publishes mods, they also write some usage instructions on Discord posts, and this list only includes mod files without accompanying instructions. 
-
 
 It is also recommended to make good use of Google to search for the website, such as adding site: sidiload.betterrepack.com after the search keyword
 
