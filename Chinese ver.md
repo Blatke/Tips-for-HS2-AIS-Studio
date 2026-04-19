@@ -10,6 +10,10 @@ AI-Shoujo、AI-Girl或AI少女 - 以下简称AI；
 
 工作室Studio除了默认画面模式外，还有两种第三方插件提供的画面模式：DHH和Graphics，可在启动界面（InitSetting.exe）切换模式。
 
+> [!TIP]
+>
+> [@想做yk的狗](https://space.bilibili.com/3461563377781343)制作了mod视频教程，有兴趣的伙伴可移步：[【HS2 mod制作教程 1所需软件的下载与安装】](https://www.bilibili.com/video/BV1mAzgBBEtj/)
+
 ## 插件目录
 HS2：[https://github.com/ManlyMarco/HS2-HF_Patch/blob/master/Plugin%20Readme.md](https://github.com/ManlyMarco/HS2-HF_Patch/blob/master/Plugin%20Readme.md)
 
